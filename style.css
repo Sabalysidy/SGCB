@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+#transaction-list li {
+  margin-bottom: 5px;
+}
+
+/* .transaction-depot {
+  color: green;
+} */
+
+/* span.transaction-retrait {
+  color: red;
+} */
+
+/* .transaction-transfert {
+  color: blue;
+} */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Système de Gestion de Compte Bancaire</title>
+  <!-- Ajoutez les liens vers Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Ajoutez votre fichier CSS personnalisé -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Gestion de Compte Bancaire</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="bg-dark text-light p-2">Solde actuel : <span id="solde"></span> FCFA</p>
+        <div id="transactions">
+          <h2>Historiques</h2>
+          <ul id="transaction-list"></ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="number" id="montant" class="form-control" placeholder="Montant">
+        </div>
+        <button class="btn btn-primary" onclick="deposer()">Déposer</button>
+        <button class="btn btn-danger" onclick="retirer()">Retirer</button>
+        <button class="btn btn-success" onclick="demanderTransfert()">Transférer</button>
+      </div>
+    </div>
+  </div>
+  <!-- Ajoutez le script JavaScript ici -->
+
+  <script src="main.js"></script>
+
+  <!-- Liens vers les scripts Bootstrap et jQuery (obligatoires pour Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
